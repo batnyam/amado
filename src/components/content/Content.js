@@ -8,10 +8,6 @@ export default class Content extends Component {
         fetch('http://172.30.28.204:48080/api/d/nice-api/rest/management/users?type=6')
         .then(resData => {
             console.log(resData);
-            //console.log(JSON.stringify(resData))
-            //do your logic here
-            //let person = resData.results
-            // this.setState({ person: resData.results }); //this is an asynchronous function
         });
     }
 
